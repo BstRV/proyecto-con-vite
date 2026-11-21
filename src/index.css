@@ -1,0 +1,10 @@
+@custom-media --modern (width <= 900px);
+
+body {
+  background: black;
+  color: white;
+
+  @media (--modern) {
+    background: indigo;
+  }
+}

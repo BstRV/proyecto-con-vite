@@ -1,0 +1,29 @@
+node_modules
+dist
+.env
+.env.localecho '# Dependencias
+node_modules/
+
+# Build de Vite
+dist/
+dist-ssr/
+
+# Logs
+*.log
+pnpm-debug.log*
+npm-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Editores y sistema operativo
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/' > .gitignore
